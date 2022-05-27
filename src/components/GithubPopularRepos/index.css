@@ -1,0 +1,49 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular-heading {
+  font-family: 'Lobster';
+  font-size: 40px;
+}
+.tab-item-container {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.popular-repos-container {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .popular-repos-container {
+    width: 90%;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .popular-repos-container {
+    width: 80%;
+  }
+}
+.failure-view-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.failure-img {
+  width: 300px;
+  height: 250px;
+}
